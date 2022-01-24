@@ -4,10 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p className="App-header">
-        I am so exicited</p>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I am <code>excited</code> and happy  .
         </p>
         <a
           className="App-link"
@@ -15,9 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello there
+          Hello World
         </a>
-      
+      </header>
     </div>
   );
 }
