@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <p className="App-header">
+        I am so exicited</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -15,9 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello there
         </a>
-      </header>
+      
     </div>
   );
 }
